@@ -12,8 +12,8 @@ import java.util.ArrayList;
  * @author win10
  */
 public class StoreBook {
-    private ArrayList<Book> books;
-	private Book book;
+    protected ArrayList<Book> books;
+    protected Book book;
 	
 	
 	public StoreBook() {

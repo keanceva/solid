@@ -11,11 +11,11 @@ package book2;
  */
 public class Book {
 
-    String title;
-    String author;
-    String category;
-    float price;
-    boolean state;
+    protected String title;
+    protected String author;
+    protected String category;
+    protected float price;
+    protected boolean state;
 	
     public Book(String title, String author, String category,float price) {
 	this.title = title;
