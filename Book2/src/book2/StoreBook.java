@@ -11,16 +11,16 @@ import java.util.ArrayList;
  *
  * @author win10
  */
-public class StoreBook {
+public class StoreBook extends Book {
     protected ArrayList<Book> books;
     protected Book book;
+
+    public StoreBook(String title, String author, String category, float price) {
+        super(title, author, category, price);
+    }
 	
 	
-	public StoreBook() {
-		/** 
-		 * Initialize array with books
-		 */
-	}
+	
 	
 	public void pay(String method, Book book) {
 		if(method == "card") {
