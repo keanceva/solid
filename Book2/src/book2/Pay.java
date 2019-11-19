@@ -15,4 +15,5 @@ public interface Pay {
    void pay(String method, Book book);
    void pay_card(String card, Book book);
    public void pay_cash(String money, Book book);
+   //usamos interfaz porque el pago se comporta de diferente forma por lo que es adecuado convertirla en interfaz
 }

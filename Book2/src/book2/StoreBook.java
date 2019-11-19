@@ -49,3 +49,4 @@ public class StoreBook extends Book {
 		 */
 	}
 }
+// storebook es una clase hija de book por lo que se aplica herencia
