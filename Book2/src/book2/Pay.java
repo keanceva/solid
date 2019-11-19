@@ -9,6 +9,7 @@ package book2;
  *
  * @author CltControl
  */
+
 public interface Pay {
 
    void pay(String method, Book book);
